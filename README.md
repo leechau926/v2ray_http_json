@@ -14,10 +14,11 @@ JSON file for v2ray with http proxy
 		 	"pass": "password"
 			}
 		],
-	"allowTransparent": false,
-	"userLevel": 0
-	},
+		"allowTransparent": false,
+		"userLevel": 0
+		},
 	"port": 2080,
-	"streamSettings": null}
+	"streamSettings": null
+	}
 	]
 ```
