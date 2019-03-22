@@ -3,17 +3,17 @@ JSON file for v2ray with http proxy
 
 ```json
 "inbounds": [
-  {
-   "protocol": "http",
-   "listen": "0.0.0.0",
-   "settings": {
-    "timeout": 0,
-	"accounts": [
 	{
-	 "user": "leechau",
-	 "pass": "LeeChau+1s"
-	}
-	],
+	"protocol": "http",
+	"listen": "0.0.0.0",
+	"settings": {
+ 	"timeout": 0,
+	"accounts": [
+		{
+	 	"user": "leechau",
+	 	"pass": "LeeChau+1s"
+		}
+		],
 	"allowTransparent": false,
 	"userLevel": 0
 	},
@@ -21,5 +21,4 @@ JSON file for v2ray with http proxy
 	"streamSettings": null}
 	]
 	}
-
 ```
