@@ -20,5 +20,4 @@ JSON file for v2ray with http proxy
 	"port": 2080,
 	"streamSettings": null}
 	]
-	}
 ```
