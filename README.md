@@ -1,23 +1,35 @@
 # v2ray_http_json
-JSON file for v2ray with http proxy
+JSON file for v2ray with both(socks and http) proxy
 
 ```json
-"inbounds": [
+"inbounds":[
 	{
 	"protocol": "http",
 	"listen": "0.0.0.0",
-	"settings": {
+	"settings":{
 	 	"timeout": 0,
 		"accounts": [
 			{
-		 	"user": "username",
-		 	"pass": "password"
+		 	"user": "leechau",
+		 	"pass": "LeeChau+1s"
 			}
-		],
+		  ],
 		"allowTransparent": false,
 		"userLevel": 0
-		},
+	  },
 	"port": 2080,
+	"streamSettings": null
+	},
+	{
+	"protocol": "socks",
+	"listen": "0.0.0.0",
+	"settings":{
+		"auth": "noauth",
+		"clients": null,
+		"udp": true,
+		"ip": "127.0.0.1"
+		},
+	"port": 1080,
 	"streamSettings": null
 	}
 	]
