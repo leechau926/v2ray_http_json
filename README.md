@@ -10,8 +10,8 @@ JSON file for v2ray with both(socks and http) proxy
 	 	"timeout": 0,
 		"accounts": [
 			{
-		 	"user": "leechau",
-		 	"pass": "LeeChau+1s"
+		 	"user": "username",
+		 	"pass": "password"
 			}
 		  ],
 		"allowTransparent": false,
