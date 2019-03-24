@@ -1,0 +1,31 @@
+"inbounds":[
+	{
+	"protocol": "http",
+	"listen": "0.0.0.0",
+	"settings":{
+	 	"timeout": 0,
+		"accounts": [
+			{
+		 	"user": "leechau",
+		 	"pass": "LeeChau+1s"
+			}
+		  ],
+		"allowTransparent": false,
+		"userLevel": 0
+	  },
+	"port": 2080,
+	"streamSettings": null
+	},
+	{
+	"protocol": "socks",
+	"listen": "0.0.0.0",
+	"settings":{
+		"auth": "noauth",
+		"clients": null,
+		"udp": true,
+		"ip": "127.0.0.1"
+		},
+	"port": 1080,
+	"streamSettings": null
+	}
+	]
